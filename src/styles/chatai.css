@@ -1,0 +1,95 @@
+.app__ChatAI {
+  padding: 2rem 4rem;
+  border: 1px solid var(--color-golden);
+  background: var(--color-black);
+}
+
+.app__ChatAI-heading {
+  text-align: center;
+}
+
+.app__ChatAI-input {
+  flex-direction: row;
+  margin-top: 3rem;
+}
+
+.app__ChatAI-input input {
+  width: 620px;
+  border: 1px solid var(--color-golden);
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: var(--font-base);
+  color: var(--color-white);
+
+  margin-right: 2rem;
+  padding: 0.75rem 1rem;
+  background: var(--color-black);
+}
+
+.app__ChatAI-input button {
+  width: max-content;
+}
+
+@media screen and (min-width: 2000px) {
+  .app__ChatAI-input input {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .app__ChatAI-input {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .app__ChatAI-input input {
+    margin: 0 0 2rem 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app__ChatAI {
+    padding: 2rem 0;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .app__ChatAI-heading h1 {
+    font-size: 32px;
+    line-height: 50px;
+  }
+}
+
+/* Gaya CSS untuk container chat */
+.app__ChatAI-chat {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Spasi antara pesan */
+  padding: 10px; /* Padding untuk kontainer chat */
+  max-height: 400px; /* Tinggi maksimum untuk kontainer chat */
+  overflow-y: auto; /* Aktifkan scroll vertikal saat ada overflow */
+}
+
+/* Gaya CSS untuk pesan chat */
+.chat-message {
+  max-width: 80%; /* Lebar maksimum pesan */
+  padding: 10px; /* Padding dalam bubble pesan */
+  border-radius: 10px; /* Sudut bulat untuk bubble pesan */
+  word-wrap: break-word; /* Wrap kata panjang */
+}
+
+/* Gaya CSS untuk pesan dari pengguna */
+.user-message {
+  align-self: flex-start; /* Pesan pengguna di sebelah kiri */
+  background-color: #007bff; /* Warna latar belakang untuk pesan pengguna */
+  color: white; /* Warna teks */
+}
+
+/* Gaya CSS untuk pesan dari AI */
+.ai-message {
+  align-self: flex-end; /* Pesan AI di sebelah kanan */
+  background-color: #28a745; /* Warna latar belakang untuk pesan AI */
+  color: white; /* Warna teks */
+}
