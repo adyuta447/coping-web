@@ -6,7 +6,7 @@ const AboutUs = () => (
       className="app__aboutus app__bg flex__center section__padding"
       id="about"
     >
-      <div class="custom-shape-divider-top-1697211477">
+      <div className="custom-shape-divider-top-1697211477">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"

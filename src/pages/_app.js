@@ -12,10 +12,21 @@ import "@/styles/footer.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Head from "next/head";
 
 export default function App({ Component, pageProps }) {
   useEffect(() => {
     AOS.init();
   }, []);
-  return <Component {...pageProps} />;
+  return (
+    <>
+      <Head>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="icon" href="/favicon.ico" />
+        <title>Coping Mechanism</title>
+      </Head>
+      <Component {...pageProps} />
+    </>
+  );
 }
