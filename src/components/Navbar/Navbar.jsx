@@ -64,7 +64,7 @@ export default function Navbar() {
                 <li>
                   <a
                     className="app__navbar_link"
-                    href="#menu"
+                    href="#dampak"
                     onClick={() => setToggleMenu(false)}
                   >
                     Dampak
@@ -73,7 +73,7 @@ export default function Navbar() {
                 <li>
                   <a
                     className="app__navbar_link"
-                    href="#awards"
+                    href="#dokumentasi"
                     onClick={() => setToggleMenu(false)}
                   >
                     Dokumentasi

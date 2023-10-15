@@ -1,15 +1,18 @@
 import ChatAI from "@/components/ChatAI/ChatAI";
 import Navbar from "@/components/Navbar/Navbar";
-import DampakSocial from "@/container/DampakSocial/DampakSocial";
-import FindUs from "@/container/FindUs/FindUs";
 import Footer from "@/container/Footer/Footer";
-import Laurels from "@/container/Laurels/Laurels";
-import Tokoh from "@/container/Tokoh/Tokoh";
 import dynamic from "next/dynamic";
 import React from "react";
 
 const Header = dynamic(() => import("@/container/Header/Header"));
 const AboutUs = dynamic(() => import("@/container/AboutUs/AboutUs"));
+const DampakSocial = dynamic(() =>
+  import("@/container/DampakSocial/DampakSocial")
+);
+const Tokoh = dynamic(() => import("@/container/Tokoh/Tokoh"));
+const Laurels = dynamic(() => import("@/container/Laurels/Laurels"));
+const FindUs = dynamic(() => import("@/container/FindUs/FindUs"));
+
 export default function index() {
   return (
     <>

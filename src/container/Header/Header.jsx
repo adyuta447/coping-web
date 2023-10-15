@@ -39,6 +39,7 @@ export default function Header() {
             height={800}
             layout="responsive"
             alt="header_img"
+            loading="lazy"
           />
         </div>
       </div>

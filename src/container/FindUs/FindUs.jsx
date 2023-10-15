@@ -42,6 +42,7 @@ const FindUs = () => (
         height={496}
         layout="responsive"
         alt="finus_img"
+        loading="lazy"
         style={{
           borderBottomRightRadius: "50px",
         }}
