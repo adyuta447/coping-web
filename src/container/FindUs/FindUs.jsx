@@ -37,11 +37,14 @@ const FindUs = () => (
 
     <div className="app__wrapper_img">
       <Image
-        src="/assets/saly-19.png"
+        src="/assets/findus.png"
         width={450}
         height={496}
         layout="responsive"
         alt="finus_img"
+        style={{
+          borderBottomRightRadius: "50px",
+        }}
       />
     </div>
   </div>
