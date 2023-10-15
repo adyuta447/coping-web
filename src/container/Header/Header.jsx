@@ -35,8 +35,8 @@ export default function Header() {
         >
           <Image
             src="/assets/welcome.png"
-            width={450}
-            height={496}
+            width={550}
+            height={800}
             layout="responsive"
             alt="header_img"
           />

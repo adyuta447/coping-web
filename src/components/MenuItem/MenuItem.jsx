@@ -2,7 +2,13 @@ const MenuItem = ({ title, number, desc }) => (
   <div className="app__menuitem">
     <div className="app__menuitem-head">
       <div className="app__menuitem-name">
-        <p className="p__cormorant" style={{ color: "#DCCA87" }}>
+        <p
+          className="p__cormorant"
+          data-aos="fade-down"
+          data-aos-delay="600"
+          data-aos-offset="0"
+          style={{ color: "#DCCA87" }}
+        >
           {title}
         </p>
       </div>
@@ -13,7 +19,13 @@ const MenuItem = ({ title, number, desc }) => (
     </div>
 
     <div className="app__menuitem-sub">
-      <p className="p__opensans" style={{ color: "#AAAAAA" }}>
+      <p
+        className="p__opensans"
+        data-aos="fade-up"
+        data-aos-delay="1000"
+        data-aos-offset="0"
+        style={{ color: "#AAAAAA" }}
+      >
         {desc}
       </p>
     </div>

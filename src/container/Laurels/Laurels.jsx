@@ -14,10 +14,13 @@ const AwardCard = ({ award: { title, subtitle } }) => (
 );
 
 const Laurels = () => (
-  <div className="app__bg__laurels app__wrapper section__padding" id="dokumentasi">
+  <div
+    className="app__bg__laurels app__wrapper section__padding"
+    id="dokumentasi"
+  >
     <div className="app__wrapper_info">
       <SubHeading title="Coping Mechanism" />
-      <h1 className="headtext__cormorant">Dilema Merokok Bagi Merokok</h1>
+      <h1 className="headtext__cormorant">Dilema Merokok Bagi Perokok</h1>
 
       <div className="app__laurels_awards">
         {data.awards.map((award) => (
@@ -28,7 +31,7 @@ const Laurels = () => (
 
     <div className="app__wrapper_img">
       <Image
-        src="/assets/man.png"
+        src="/assets/msn.png"
         width={500}
         height={500}
         layout="responsive"
