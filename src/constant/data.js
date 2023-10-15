@@ -46,20 +46,24 @@ const positive = [
 
 const awards = [
   {
-    title: "Lorem ipsum",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
+    title: "Merokok memberi rasa lega sementara.",
+    subtitle:
+      "Hal ini menghadirkam pengalihan dan pelarian dari masalah yang sedang mereka hadapi.",
   },
   {
-    title: "Lorem ipsum",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
+    title: "Menyebabkan masalah kesehatan serius.",
+    subtitle:
+      "Memang klise, namun peringatan ini lah yang masih sering dilanggar oleh para remaja. ",
   },
   {
-    title: "Lorem ipsum",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
+    title: "Nikotin rokok memberikan perasaan tenang dan rileks.",
+    subtitle:
+      "Dengan ini, remaja merasa bahwa merokok membantu mereka mengatasi masalah emosional meski hanya sejenak. ",
   },
   {
-    title: "Lorem ipsum",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
+    title: "Seringkali terjebak keinginan untuk lebih baik secara cepat.",
+    subtitle:
+      "Para remaja tidak memikirkan konsekuensi jangka panjang bahwa merokok dapat mempengaruhi kualitas hidup mereka di masa depan.",
   },
 ];
 

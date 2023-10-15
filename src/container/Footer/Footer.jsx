@@ -15,9 +15,10 @@ const Footer = () => (
 
       <div className="app__footer-links_logo">
         <Image
-          src="/assets/groupfive.png"
+          src="/assets/trinity.png"
           width={210}
           height={45}
+          layout="responsive"
           alt="footer_logo"
         />
         <p className="p__opensans">

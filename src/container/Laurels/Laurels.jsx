@@ -20,7 +20,7 @@ const Laurels = () => (
   >
     <div className="app__wrapper_info">
       <SubHeading title="Coping Mechanism" />
-      <h1 className="headtext__cormorant">Dilema Merokok Bagi Perokok</h1>
+      <h1 className="headtext__cormorant">Dilema Merokok di Kalangan Remaja</h1>
 
       <div className="app__laurels_awards">
         {data.awards.map((award) => (
