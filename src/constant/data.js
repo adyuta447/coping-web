@@ -63,7 +63,7 @@ const awards = [
   {
     title: "Seringkali terjebak keinginan untuk lebih baik secara cepat.",
     subtitle:
-      "Para remaja tidak memikirkan konsekuensi jangka panjang bahwa merokok dapat mempengaruhi kualitas hidup mereka di masa depan.",
+      "Remaja sering tidak mempertimbangkan dampak jangka panjang merokok pada kualitas hidup mereka di masa depan.",
   },
 ];
 

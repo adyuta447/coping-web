@@ -5,10 +5,23 @@ import SubHeading from "@/components/SubHeading/SubHeading";
 const AwardCard = ({ award: { title, subtitle } }) => (
   <div className="app__laurels_awards-card">
     <div className="app__laurels_awards-card_content">
-      <p className="p__cormorant" style={{ color: "#DCCA87" }}>
+      <p
+        className="p__cormorant"
+        data-aos="zoom-in"
+        data-aos-delay="600"
+        data-aos-offset="0"
+        style={{ color: "#DCCA87" }}
+      >
         {title}
       </p>
-      <p className="p__opensans">{subtitle}</p>
+      <p
+        className="p__opensans"
+        data-aos="fade-up"
+        data-aos-delay="800"
+        data-aos-offset="0"
+      >
+        {subtitle}
+      </p>
     </div>
   </div>
 );

@@ -21,8 +21,7 @@ const Footer = () => (
           alt="footer_logo"
         />
         <p className="p__opensans">
-          &quot;Kegagalan adalah kunci kesuksesan tapi saya lupa taruh kuncinya
-          dimana&quot;
+          &quot;Trinity Power: Stronger Together, Triumphant Forever!&quot;
         </p>
       </div>
 
