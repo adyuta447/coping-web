@@ -10,7 +10,13 @@ export default function Navbar() {
     <>
       <nav className="app__navbar">
         <div className="app__navbar-logo">
-          <Image src="/assets/trinity.png" width={150} height={41} alt="logo" />
+          <Image
+            src="/assets/trinity.png"
+            width={150}
+            height={41}
+            alt="logo"
+            loading="lazy"
+          />
           {/* <img src={groupfive} alt="app__logo" /> */}
         </div>
         <ul className="app__navbar-links">

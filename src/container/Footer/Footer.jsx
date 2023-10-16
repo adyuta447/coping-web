@@ -1,5 +1,3 @@
-import { FiFacebook, FiTwitter, FiInstagram } from "react-icons/fi";
-
 import Image from "next/image";
 
 const Footer = () => (
@@ -19,18 +17,13 @@ const Footer = () => (
           width={210}
           height={45}
           layout="responsive"
+          loading="lazy"
           alt="footer_logo"
         />
         <p className="p__opensans">
           &quot;Kegagalan adalah kunci kesuksesan tapi saya lupa taruh kuncinya
           dimana&quot;
         </p>
-
-        <div className="app__footer-links_icons">
-          <FiFacebook />
-          <FiTwitter />
-          <FiInstagram />
-        </div>
       </div>
 
       <div className="app__footer-links_work">

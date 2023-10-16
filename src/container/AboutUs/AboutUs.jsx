@@ -61,6 +61,7 @@ const AboutUs = () => (
             width={108}
             height={910}
             layout="responsive"
+            loading="lazy"
             alt="about_knife"
           />
         </div>
