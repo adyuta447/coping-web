@@ -32,7 +32,7 @@ export default function Navbar() {
             <a href="#dampak">Dampak</a>
           </li>
           <li className="p__opensans">
-            <a href="#dokumentasi">Dokumentasi</a>
+            <a href="#kesimpulan">Kesimpulan</a>
           </li>
         </ul>
         <div className="app__navbar-smallscreen">
@@ -79,10 +79,10 @@ export default function Navbar() {
                 <li>
                   <a
                     className="app__navbar_link"
-                    href="#dokumentasi"
+                    href="#kesimpulan"
                     onClick={() => setToggleMenu(false)}
                   >
-                    Dokumentasi
+                    Kesimpulan
                   </a>
                 </li>
               </ul>

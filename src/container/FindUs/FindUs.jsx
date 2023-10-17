@@ -2,7 +2,7 @@ import Image from "next/image";
 import SubHeading from "@/components/SubHeading/SubHeading";
 
 const FindUs = () => (
-  <div className="app__bg app__wrapper section__padding" id="contact">
+  <div className="app__bg app__wrapper section__padding" id="kesimpulan">
     <div className="app__wrapper_info">
       <SubHeading title="Coping Mechanism" />
       <h1 className="headtext__cormorant" style={{ marginBottom: "3rem" }}>
