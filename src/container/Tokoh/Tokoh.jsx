@@ -26,6 +26,7 @@ export default function Tokoh() {
               src="/assets/quote.png"
               width={46}
               height={40}
+              loading="lazy"
               alt="quote_image"
             />
             <p className="p__opensans">

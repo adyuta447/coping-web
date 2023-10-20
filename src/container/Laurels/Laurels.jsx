@@ -48,6 +48,7 @@ const Laurels = () => (
         width={500}
         height={500}
         layout="responsive"
+        loading="lazy"
         alt="laurels_img"
       />
     </div>
